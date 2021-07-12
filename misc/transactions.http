@@ -1,0 +1,9 @@
+POST http://localhost:3000/transactions HTTP/1.1
+content-type: application/json
+
+{
+  "date": "2021-06-01",
+  "amount": "200.40",
+  "currency": "USD",
+  "client_id": 42
+}
